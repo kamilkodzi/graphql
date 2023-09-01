@@ -1,5 +1,5 @@
 import express from 'express';
-import { rootSchema } from './root-query-type';
+import { rootSchema } from './root-query-schema';
 import { graphqlHTTP } from 'express-graphql';
 
 // Create a express instance serving all methods on `/graphql`
