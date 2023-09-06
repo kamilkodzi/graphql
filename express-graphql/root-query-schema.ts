@@ -72,6 +72,8 @@ const AuthorType: GraphQLObjectType = new GraphQLObjectType({
 	}),
 });
 
+
+
 const RootMutationType = new GraphQLObjectType({
 	name: 'Mutation',
 	description: 'Root Mutation',
